@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payoo Nobile Bank</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <!-- daisy ui and tailwind css -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -20,7 +21,36 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
-    <h1>Welcome to payoo mobile bangking.</h1>
+  <body
+    class="bg-[#F4F5F7] h-[100vh] flex flex-col items-center justify-center"
+  >
+    <div>
+      <img
+        src="./assets/Logo-full.png"
+        class="w-[234px] h-[84px]"
+        alt="bank-logo"
+      />
+    </div>
+    <form class="bg-[#FFFFFF] rounded-2xl mt-12 w-[350px] p-8">
+      <label class="font-semibold" for="">Mobile Number</label>
+      <input
+        type="text"
+        placeholder="Enter your number"
+        class="input bg-[#F4F5F7] rounded-3xl mt-2 mb-4"
+      />
+      <label class="font-semibold" for="">4 Digit Pin</label>
+      <input
+        type="text"
+        placeholder="Enter 4 Digit Pin"
+        class="input bg-[#F4F5F7] rounded-3xl mt-2"
+      />
+      <button
+        class="btn bg-[#3B25C1] font-bold w-full text-white mt-4 rounded-3xl py-6"
+      >
+        Login
+      </button>
+    </form>
+
+    <script src="./index.js"></script>
   </body>
 </html>
