@@ -3,9 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Payoo Nobile Bank</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <!-- daisy ui and tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
-    <h1>Hi, I am home</h1>
+  <body class="">
+    <!-- header -->
+    <div
+      class="flex justify-between items-center px-12 py-8 border-b border-gray-300"
+    >
+      <div class="flex justify-center items-center">
+        <img
+          class="w-[60px] h-[48px]"
+          src="./assets/logo.png"
+          alt="brand-logo"
+        />
+        <div>
+          <h1 class="font-extrabold text-2xl">$<span>45000</span></h1>
+          <p class="text-[#838383] text-sm">Available Balance</p>
+        </div>
+      </div>
+      <button class="text-[#838383]">
+        <i class="fa-solid fa-right-from-bracket"></i> Log Out
+      </button>
+    </div>
+
+    <div>
+      <h1>Welcome to Payoo</h1>
+      <p class="text-[#838383]">
+        Enjoy easy and convenient financial services with us. Cashout charge is
+        low and
+      </p>
+    </div>
   </body>
 </html>
